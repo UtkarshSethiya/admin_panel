@@ -1,0 +1,36 @@
+.navbar_container{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px 3px #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+}
+.profileicon{
+
+    font-size: 25px !important;
+}
+.dropdown_icons{
+    font-size: 18px !important;
+}
+.bellicon{
+    
+    font-size: 20px !important;
+}
+.bellicon_container{
+    margin-right: 10px;
+    margin-top: 4px;
+}
+#labeldetails{
+    font-size: 14px;
+    font-weight: 600;
+ 
+}
+.radiocheck{
+    cursor: pointer;
+    background-color: rgb(2, 255, 2);
+    outline: none !important;
+    border: none !important;
+}
+.radiocheck:checked{
+    background-color: rgb(214, 32, 0) !important;
+}

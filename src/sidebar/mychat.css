@@ -1,0 +1,172 @@
+.chat_cont{
+    height: 100vh;
+    width: 25%;
+    background-color: rgba(244,246,249,255);
+}
+
+.mychat_container{
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(244,246,249,255);
+}
+.chat_section_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.chat_section{
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 500;
+    color: rgb(84, 84, 84);
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.chat_section:focus{
+    text-decoration: none;
+    color: rgb(17, 106, 250);
+}
+.operatorname{
+    font-size: 14px;
+    font-weight: 500;
+}
+.operatordate{
+    font-size: 12px;
+    color: white;
+    font-weight: 200;
+}
+
+.chat_content{
+ padding-top: 200px;
+ text-align: center;
+ color: gray;
+    background-color: rgba(244,246,249,255) ;
+ 
+}
+.bi-globe{
+    font-size: 24px !important;
+    color: rgb(0, 174, 255);
+}
+.heading_content{
+    margin-left: 10px;
+display: inline-block;
+
+
+}
+.event_container{
+    width: 45%;
+}
+.event_content_top{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+.event_content_down{
+    font-size: 12px;
+ color: rgb(130, 130, 130);   
+}
+.event_heading{
+    display: flex;
+    padding-bottom: 2px;
+   
+}
+.ddown{
+    font-size: 8px !important;
+}
+.threedots{
+    margin-left: 170px;
+}
+.bi-three-dots-vertical{
+    font-size: 20px !important;
+    cursor: pointer;
+  
+ color: gray;
+}
+.chat_window{
+    height: 400px;
+  }
+.chat_option_container{
+    background: #f6fafd;
+    padding: 15px;
+}
+.chat_option{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.chat_option_button{
+font-size: 13px;
+color: rgb(252, 90, 90);
+border-radius: 5px;
+cursor: pointer;
+}
+.end_chat_button{
+    color: grey;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*3rd cont*/
+.usericon{
+    font-size: 28px !important;
+    color: rgb(194, 194, 194) !important;
+    padding-left: 5px;
+}
+.detailsection{
+    display: inline-block;
+}
+.detailname{
+    font-size: 13px;
+    padding-top: 8px;
+    font-weight: 600;
+}
+.detailadress{
+    font-size: 10px;
+    color: rgb(68, 68, 68);
+}
+.datesection{
+    color: rgb(3, 3, 3);
+    font-weight: 500;
+    font-size: 11px !important;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.infosection{
+    color: rgb(0, 197, 247);
+    font-weight: 500;
+    font-size: 11px !important;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.infoicon {
+    color: rgb(155, 155, 155);
+    font-size: 12px !important;
+}
+.moredetails_container{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.moredetails{
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.detailtype{
+    color: gray;
+    font-size: 12px;
+}
+.detailtype_right{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+.bi-windows{
+    color: turquoise;
+}
+.bi-speedometer2{
+    font-size: 15px !important;
+    color: turquoise;
+}

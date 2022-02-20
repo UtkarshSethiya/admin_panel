@@ -1,0 +1,73 @@
+.sidebar_container{
+    width: 60px;
+    background-color: #011627;
+    position: absolute;
+    height: 100vh;
+padding: 5px;
+}
+.list_container{
+    padding: 0;
+    margin-top: 10px;
+}
+.list{
+    list-style-type: none;
+   text-align: center;
+}
+
+.item{
+    color: rgb(174, 174, 174);
+    text-decoration: none;
+    font-size: 9px;
+    cursor: pointer;
+}
+.item:hover{
+    color: white;
+}
+.item:focus{
+    color: white;
+   
+}
+.item:focus .item_icons{
+    background-color: #008cff;
+}
+
+
+
+.item_icons{
+   padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50%;
+    font-size: 15px !important;
+    background-color: #08487d;
+}
+
+.droprightmenu{
+    width: 10px !important;
+
+    background-color: #011627;
+    color: white;
+    font-size: 13px !important;
+ 
+}
+.item_icons_drop{
+    font-size: 18px !important;
+}
+.droprightmenu_items{
+    text-decoration: none;
+    color: rgb(152, 152, 152);
+    padding: 10px;
+}
+.droprightmenu_items:hover{
+    color: white;
+  width: 100%;
+}
+
+
+/*<a className='item'><i class="bi item_icons bi-people-fill"></i><br></br><span style={{marginRight:'2px'}}>Chat</span>System</a>*/
+/*<li className='list'>
+    <a className='item'><i className="bi item_icons bi-clipboard2"></i><br></br>Other</a>
+</li><pre></pre>
+<li className='list'>
+    <a className='item'><i className="bi item_icons bi-clipboard2"></i><br></br>Other</a>
+</li><pre></pre>*/

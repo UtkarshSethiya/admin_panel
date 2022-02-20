@@ -1,0 +1,19 @@
+.setting_menus_container {
+   
+  
+}
+.addcolor{
+    color: grey;
+}
+.inputsettings::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.settingicon{
+    font-size: 25px !important;
+    padding-right: 6px;
+}
+.settingheading{
+ font-weight: 400;
+    color: rgb(54, 54, 54);
+}
