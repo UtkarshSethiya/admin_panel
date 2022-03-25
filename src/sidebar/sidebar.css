@@ -14,11 +14,13 @@ padding: 5px;
    text-align: center;
 }
 
+
 .item{
     color: rgb(174, 174, 174);
     text-decoration: none;
     font-size: 9px;
     cursor: pointer;
+    font-weight: 600;
 }
 .item:hover{
     color: white;
@@ -41,17 +43,56 @@ padding: 5px;
     font-size: 15px !important;
     background-color: #08487d;
 }
-
 .droprightmenu{
-    width: 10px !important;
+   width: 10px !important;
+        background-color: #011627;
+        color: white;
+        font-size: 15px !important;
+}
+
+.droprightmenusetting{
+    width: 230px !important;
 
     background-color: #011627;
     color: white;
-    font-size: 13px !important;
+    font-size: 15px !important;
+    padding-top: 12px;
  
 }
+.droprightmenusetting{
+    margin-left: 9px !important;
+} 
+
+/*
+<li className='list'>
+<div className="  dropend">
+  <span type="button" className=" dropdown-toggle   item" data-bs-toggle="dropdown" aria-expanded="false">
+  <i className="bi item_icons droprighticon bi item_icons bi-gear-fill"></i><pre></pre> Settings
+  </span>
+  <ul className="dropdown-menu  droprightmenusetting ">
+  <li className='settingsmenu'><Link to='./settings/SuperadminManagement' className='droprightmenu_items' href='#'> <Icon className='item_icons_setting' icon="wpf:administrator" /> Superadmin Management</Link></li>
+  <li className='settingsmenu'><Link to='./settings/OperatorManagement' className='droprightmenu_items' href='#'><Icon className='item_icons_setting' icon="subway:admin" /> Operator Management</Link></li>
+  <li className='settingsmenu'><Link to='./settings/ChatadminManagement' className='droprightmenu_items' href='#'><Icon className='item_icons_setting' icon="bxs:user" /> Chatadmin Management</Link></li>
+  <li className='settingsmenu'><Link to='./settings' className='droprightmenu_items' href='#'><Icon className='item_icons_setting' icon="akar-icons:chat-dots" /> Chat Management</Link></li>
+  <li className='settingsmenu'><Link to='./settings'  className='droprightmenu_items' href='#'><Icon className='item_icons_setting' icon="teenyicons:password-solid" /> Change Password</Link></li>
+  </ul>
+</div>
+</li><pre></pre>*/
+
+/*<li className='list'>
+    
+    <Link to='./Settings'  className='item'><i className="bi item_icons bi-gear-fill"></i><br></br>Settings</Link>
+</li><pre></pre>*/
+.settingsmenu{
+   font-size: 15px;
+   padding-bottom: 10px;
+}
+
 .item_icons_drop{
-    font-size: 18px !important;
+    font-size: 20px !important;
+}
+.item_icons_setting{
+    font-size: 25px !important;
 }
 .droprightmenu_items{
     text-decoration: none;

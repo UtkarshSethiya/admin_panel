@@ -23,8 +23,8 @@ else{
          <div className='d-flex'>
 
          <div class="form-check mt-2 me-5 form-switch">
-         <label class="form-check-label -" id='labeldetails' for="flexSwitchCheckChecked">Available</label>
-  <input class="form-check-input radiocheck shadow-none" onClick={radiobutton} type="checkbox" id="flexSwitchCheckChecked"  />
+         <label class="form-check-label " id='labeldetails' for="flexSwitchCheckChecked">Available</label>
+  <input className="form-check-input radiocheck shadow-none" onClick={radiobutton} type="radiobutton" id="flexSwitchCheckChecked"  />
 
 </div>
 

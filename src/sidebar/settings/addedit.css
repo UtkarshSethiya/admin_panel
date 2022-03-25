@@ -1,0 +1,66 @@
+.adminlabel{
+    font-weight: 600;
+    font-size: 15px;
+}
+.addsubmitbutton{
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+.formadd{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(251, 251, 251);
+}
+.labelheading{
+    font-size: 25px; 
+    font-weight: 700;  
+}
+input::placeholder{
+    color: rgb(91, 91, 91) !important;
+  
+}
+.form-control{
+    background-color: rgb(236, 246, 255);
+}
+.form-select{
+    background-color: rgb(236, 246, 255);
+}
+
+/* <div className="col-md-3 formadd">
+      <form class="row g-2" >
+      <div class="col-md-12 text-center"> <label for="validationDefault01" class="form-label labelheading">Add/Edit Superadmin</label></div>
+    <div class="col-md-12">
+      <label for="validationDefault01" class="form-label adminlabel">Name</label>
+      <input type="text"  class="form-control" id="validationDefault01" placeholder="Enter Your Name" required />
+    </div>
+    <div class="col-md-12">
+      <label for="validationDefault02" class="form-label adminlabel">Email</label>
+      <input type="email"  class="form-control" placeholder="Enter Your Email" id="validationDefault02"  required />
+    </div>
+   
+    <div class="col-md-12">
+    <label for="exampleInputPassword1" class="form-label adminlabel">Password</label>
+    <input type="text"  class="form-control" id="exampleInputPassword1" placeholder="Enter your Password" required /> 
+    </div>
+    
+  
+    <div class="col-md-12">
+      <label for="validationDefault04" class="form-label adminlabel">Role</label>
+      <select    placeholder="Choose"  class="form-select" id="validationDefault04" required>
+      
+        <option   selected>Superadmin</option>
+      </select>
+    </div>
+  
+   
+    <div class="col-12 text-center">
+     <button  class="addsubmitbutton mt-2 " type="submit">Submit</button>
+    </div>
+  </form>
+  </div>*/

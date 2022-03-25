@@ -1,0 +1,251 @@
+span.navbar-brand {
+color: white;
+font-weight: 600;
+}
+
+.navbar_cont{
+    background-color: rgb(41, 41, 41);
+   
+  
+}
+.chatboxcontainer{
+    width: 550px;
+}
+.sublist{
+    background-color: rgb(62, 62, 62);
+}
+.sublist:hover{
+    background-color: #141414;
+}
+
+.messagecontainer{
+
+    background-color: rgb(247, 245, 245);
+    
+}
+.chatmessage_cont{
+    overflow-y: scroll;
+height:75vh;
+}
+.forminput{
+    background-color: rgb(248, 248, 248);
+   
+}
+
+.chatbox{
+    position: relative;
+    bottom: 8px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+ padding-top: 2px;
+    color: black;
+    font-weight: 500;
+   
+  
+}
+.sendicon{
+    font-size: 35px !important;
+  
+}
+.sendbutton{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+ 
+}
+.usernamebox{
+    color: grey;
+    font-weight: 400;
+    font-size: 10px;
+  margin-left: 3px;
+
+}
+.chatbox_cont{
+width: fit-content;
+
+    border-radius:  1.125rem  1.125rem   1.125rem 0;
+    background: rgb(255, 253, 253);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    
+}
+.receive_cont{
+    width: 300px;
+}
+.chat_cont{
+    
+    width: 30%;
+   
+   border-right: 0.5px solid rgb(201, 201, 201);
+}
+
+.mychat_container{
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+   
+    font-weight: 600;
+    background-color: rgba(244,246,249,255);
+}
+.mychat_container2{
+    height: 480px;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+
+.chat_section:focus{
+    text-decoration: none;
+    color: rgb(17, 106, 250);
+}
+.subscribername{
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+.operatordate{
+    font-size: 12px;
+    color: white;
+    font-weight: 200;
+}
+.chatname{
+    font-weight: 500;
+    color: white;
+}
+
+.chat_content{
+ padding-top: 200px;
+ text-align: center;
+ color: gray;
+    background-color: rgba(244,246,249,255) ;
+ 
+}
+.bi-globe{
+    font-size: 24px !important;
+    color: rgb(0, 174, 255);
+}
+.heading_content{
+    margin-left: 10px;
+display: inline-block;
+
+
+}
+.event_container{
+    width: 45%;
+}
+.event_content_top{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+.event_content_down{
+    font-size: 12px;
+ color: rgb(130, 130, 130);   
+}
+.event_heading{
+    display: flex;
+    padding-bottom: 2px;
+   
+}
+.ddown{
+    font-size: 8px !important;
+}
+.threedots{
+    margin-left: 170px;
+}
+.bi-three-dots-vertical{
+    font-size: 20px !important;
+    cursor: pointer;
+  
+ color: gray;
+}
+.chat_window{
+    height: 400px;
+  }
+.chat_option_container{
+    background: #f6fafd;
+    padding: 15px;
+}
+.chat_option{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.chat_option_button{
+font-size: 13px;
+color: rgb(252, 90, 90);
+border-radius: 5px;
+cursor: pointer;
+}
+.end_chat_button{
+    color: grey;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*3rd cont*/
+.usericon{
+    font-size: 28px !important;
+    color: rgb(194, 194, 194) !important;
+    padding-left: 5px;
+}
+.detailsection{
+    display: inline-block;
+}
+.detailname{
+    font-size: 13px;
+    padding-top: 8px;
+    font-weight: 600;
+}
+.detailadress{
+    font-size: 10px;
+    color: rgb(68, 68, 68);
+}
+.datesection{
+    color: rgb(3, 3, 3);
+    font-weight: 500;
+    font-size: 11px !important;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.infosection{
+    color: rgb(0, 197, 247);
+    font-weight: 500;
+    font-size: 11px !important;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.infoicon {
+    color: rgb(155, 155, 155);
+    font-size: 12px !important;
+}
+.moredetails_container{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.moredetails{
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.navbar_cont{
+    background-color: rgb(68, 68, 68);
+    
+}
+.detailtype{
+    color: gray;
+    font-size: 12px;
+}
+.detailtype_right{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+.bi-windows{
+    color: turquoise;
+}
+.bi-speedometer2{
+    font-size: 15px !important;
+    color: turquoise;
+}
+.gcont{
+    width: 50%;
+}
